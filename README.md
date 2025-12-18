@@ -92,7 +92,7 @@ FetchContent_Declare(ftxui
 )
 
 FetchContent_Declare(ftxui-navigation-tree
-  GIT_REPOSITORY https://github.com/gio/navigation-tree-ftxui
+  GIT_REPOSITORY https://github.com/Appisolato/navigation-tree-ftxui
   GIT_TAG master
 )
 
