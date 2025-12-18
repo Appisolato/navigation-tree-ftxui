@@ -92,14 +92,14 @@ FetchContent_Declare(ftxui
 )
 
 FetchContent_Declare(ftxui-navigation-tree
-  GIT_REPOSITORY https://github.com/gio/grid-container-ftxui
+  GIT_REPOSITORY https://github.com/gio/navigation-tree-ftxui
   GIT_TAG master
 )
 
 FetchContent_MakeAvailable(ftxui)
-FetchContent_MakeAvailable(ftxui-grid-container)
+FetchContent_MakeAvailable(ftxui-navigation-tree)
 add_executable(my-app src/main.cpp)
 target_link_libraries(my-app
-  PRIVATE ftxui-grid-container
+  PRIVATE ftxui-navigation-tree
 )
 ```
