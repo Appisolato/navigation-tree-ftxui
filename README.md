@@ -66,7 +66,7 @@ int main(int argc, const char * argv[]) {
         return toAdd;
     });
     Component w = Window({
-        .title = "Maccosa?",
+        .title = "Window",
         .top = 0,
         .left = 0,
         .width = screen.dimx(),
