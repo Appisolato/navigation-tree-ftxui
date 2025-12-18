@@ -3,8 +3,8 @@ project(ftxui-navigation-tree)
 include(cmake/ftxui.cmake)
 
 add_library(ftxui-navigation-tree STATIC
-    include/ftxui-navigation-tree/ipv4.hpp
-    src/ftxui-navigation-tree/ipv4.cpp
+    include/ftxui-navigation-tree/NavigationTree.hpp
+    src/ftxui-navigation-tree/NavigationTree.cpp
     )
 target_link_libraries(ftxui-navigation-tree PUBLIC ftxui::component)
 
