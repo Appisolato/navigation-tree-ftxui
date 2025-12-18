@@ -63,9 +63,6 @@ int main(int argc, const char * argv[]) {
         if (code == "n1.n11") {
             toAdd["n1.n11.n115"] = "opop5";
         }
-        else if (code == "n1.n13") {
-            toAdd["n1.n13.n131"] = "tumà";
-        }
         return toAdd;
     });
     Component w = Window({
